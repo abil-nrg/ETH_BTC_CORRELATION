@@ -10,5 +10,6 @@ The Pearson Correlation measures the linear relationship between two random vari
 $\rho_{x,y} = \dfrac{Cov(x,y)}{\sigma_x \sigma_y}$\
 What we can do is use the last $n$ days for calculating the $Cov(x,y)$ and $\sigma_i$. Below is the 90 and 180 day rolling correlation.
 ![90 Day Rolling Correlation](90-Day_Rolling_Correlation_BTC_and_ETH_Returns.png)
+![180 Day Rolling Correlation](180-Day_Rolling_Correlation_BTC_and_ETH_Returns.png)
 
 [1]:https://www.kaggle.com/datasets/kapturovalexander/bitcoin-and-ethereum-prices-from-start-to-2023?select=ETH-USD+%2801-05.2024%29.csv "Kaggle"
