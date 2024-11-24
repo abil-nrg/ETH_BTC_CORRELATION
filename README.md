@@ -6,8 +6,8 @@ In creating a bigger project, I will be building each component seperately first
 The data collected gives a daily open and close of both prices, along with the date. It has been speculated that ETH trails BTC, we will look at the relationship of daily returns on the daily scale. Moreover, we will look at the correlation of the daily returns on day $n$ based on daily returns of the previous 90, and 180 days seperately. The correlation we are using is the Pearson Correlation, **NOTE** the Pearson Correlation can only tell us about a *linear* relationship between the two random variables. Let's look at them now!
 
 ## Daily Returns Correlation
-The Pearson Correlation measures the linear relationship between two random variables, using its standart deviation, using the formula:
-$\rho_{x,y} = \dfrac{Cov(x,y)}{\sigma_x \sigma_y}$
+The Pearson Correlation measures the linear relationship between two random variables, using its standart deviation, using the formula:\
+$\rho_{x,y} = \dfrac{Cov(x,y)}{\sigma_x \sigma_y}$\
 What we can do is use the last $n$ days for calculating the $Cov(x,y)$ and $\sigma_i$. Below is the 90 and 180 day rolling correlation.
 ![90 Day Rolling Correlation](90-Day_Rolling_Correlation_BTC_and_ETH_Returns.png)
 
