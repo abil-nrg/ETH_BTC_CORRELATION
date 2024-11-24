@@ -12,7 +12,7 @@ The data collected gives a daily open and close of both prices, along with the d
 
 The Pearson Correlation measures the linear relationship between two random variables, using its standart deviation, using the formula:\
 $\rho_{x,y} = \dfrac{Cov(x,y)}{\sigma_x \sigma_y}$\
-What we can do is use the last $n$ days for calculating the $Cov(x,y)$ and $\sigma_i$. Below is the 90 and 180 day rolling correlation.
+What we can do is use the last $n$ days for calculating the $Cov(x,y)$ and $\sigma_i$. The way it should be interpreted is a value near 0 (0-0.2), means very little to no correlation. The values which are closer to -1 or +1, show perfect correlation. Intuitively a negative correlation, means when one random variable goes up, the other goes down, when positive both random variables go up. Below is the 90 and 180 day rolling correlation.\
 ![90 Day Rolling Correlation](90-Day_Rolling_Correlation_BTC_and_ETH_Returns.png)
 ![180 Day Rolling Correlation](180-Day_Rolling_Correlation_of_BTC_and_ETH_Returns.png)
 
